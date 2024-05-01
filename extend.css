@@ -1,0 +1,12 @@
+#language-selector .language {
+  cursor: pointer;
+  font-weight: normal;
+}
+
+#language-selector .language.active {
+  font-weight: bold;
+}
+
+#language-selector .language:hover {
+  color: #f6d54e !important;
+}

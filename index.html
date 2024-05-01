@@ -2,13 +2,15 @@
 <html style="font-size: 16px;" lang="en"><head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="About Us, ​Family Business">
+    <meta name="keywords" content="About Us, Family Business">
     <meta name="description" content="">
     <title>About 1</title>
-    <link rel="stylesheet" href="nicepage.css" media="screen">
+    <link rel="stylesheet" href="default.css" media="screen">
+    <link rel="stylesheet" href="extend.css" media="screen">
     <link rel="stylesheet" href="About-1.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery-1.9.1.min.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="extend.js" defer=""></script>
     <meta name="generator" content="Nicepage 6.9.4, nicepage.com">
     <meta name="referrer" content="origin">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
@@ -40,6 +42,7 @@
               </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-3-base u-text-hover-palette-3-base" href="#contact" style="padding: 10px 20px;">Contact</a>
               </li></ul>
           </div>
+
           <div class="u-custom-menu u-nav-container-collapse">
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-inner-container-layout u-sidenav-overflow">
@@ -54,11 +57,17 @@
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
           </div>
         </nav>
-      </div></header>
+        <div id="language-selector" style="position: absolute; top: 20px; right: 0;">
+          <span class="language" onclick="loadLanguage('en')">EN</span> |
+          <span class="language" onclick="loadLanguage('hu')">HU</span> |
+          <span class="language" onclick="loadLanguage('sk')">SK</span>
+        </div>
+      </div>
+    </header>
     <section class="u-clearfix u-image u-shading u-section-1" id="sec-266b" data-image-width="2000" data-image-height="1333">
       <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
-        <h1 class="u-text u-text-default u-text-1" data-animation-name="customAnimationIn" data-animation-duration="2000">About Us</h1>
-        <p class="u-text u-text-2"> We treat every project with the respect it deserves, and don't stop until you are satisfied.</p>
+        <h1 id="motto" class="u-text u-text-default u-text-1" data-animation-name="customAnimationIn" data-animation-duration="2000">About Us</h1>
+        <p id="description" class="u-text u-text-2"> We treat every project with the respect it deserves, and don't stop until you are satisfied.</p>
       </div>
     </section>
     <section class="u-clearfix u-section-2" id="sec-04c2">
@@ -292,7 +301,7 @@
     
     
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-59bd"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">Slava n.o., 2024 &#169;</p>
+        <p class="u-small-text u-text u-text-variant u-text-1">&#169; Slava n.o., 2024</p>
       </div></footer>
     <!-- <section class="u-backlink u-clearfix u-grey-80">
       <p class="u-text">
