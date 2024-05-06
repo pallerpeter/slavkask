@@ -21,6 +21,12 @@ function loadLanguage(language) {
     .then((response) => response.json())
     .then((data) => {
       //document.getElementById("greeting").textContent = data.greeting;
+      document.getElementById("home").textContent = data.home;
+      document.getElementById("about").textContent = data.about;
+      document.getElementById("contact").textContent = data.contact;
+      document.getElementById("home_mobil").textContent = data.home_mobil;
+      document.getElementById("about_mobil").textContent = data.about_mobil;
+      document.getElementById("contact_mobil").textContent = data.contact_mobil;
       document.getElementById("motto").textContent = data.motto;
       document.getElementById("description").textContent = data.description;
       document.getElementById("mission_title").textContent = data.mission_title;

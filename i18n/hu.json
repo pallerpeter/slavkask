@@ -1,8 +1,15 @@
 {
+  "home": "Kezdőlap",
+  "about": "Rólunk",
+  "contact": "Kapcsolat",
+  "home_mobil": "Kezdőlap",
+  "about_mobil": "Rólunk",
+  "contact_mobil": "Kapcsolat",
   "greeting": "Üdvözlöm",
   "description": "Visszanyert energia a műanyag hulladék újrahasznosításával",
   "motto": "Tisztább környezet",
   "mission_title": "Együtt a műanyagszennyezés ellen",
   "mission": "Az elmúlt három évtizedben megnégyszereződött a műanyagfogyasztás a Földön. A műanyagok mindössze 9 százalékát hasznosítják újra, 50 százalék a szeméttelepekre kerül. Egy részét elégetik, a többi pedig egyáltalán nem kerül a hulladékfeldolgozás rendszerébe. Sajnos nem minden műanyag hasznosítható újra és ez óriási problémát okoz az egész világon, hiszen a mikroműanyagok már ételeinkben, vizeinkben, sőt, még az emberi szervezetben is megjelentek. Rendkívül fontos tehát, hogy a kormányok, a nem kormányzati szervezetek és a hétköznapi emberek is felismerjék a műanyagszennyezés veszélyeit. Elengedhetetlen továbbá, hogy folyamatosan keressük azokat a technológiákat, amelyek segítségével a hagyományos eljárásokkal nem hasznosítható műanyagok feldolgozhatók. Egy határokon átívelő együttműködés létrehozására törekszünk, amely által elérhető a műanyagszennyezés csökkentése és egy tisztább életkörnyezet kialakítása.",
-  "mission_summary": "Non-profit szervezetünk legfőbb feladata egy környezeti és társadalmi téren is fenntartható világ megteremtése, amelyet nagyrészt a nem újrahasznosítható műanyagok hasznosítása által lehet megvalósítani. Környezetvédelmi tevékenységünk mellett céljaink között szerepel a jövő nemzedék környezettudatosságra való nevelése is."
+  "mission_summary": "Non-profit szervezetünk legfőbb feladata egy környezeti és társadalmi téren is fenntartható világ megteremtése, amelyet nagyrészt a nem újrahasznosítható műanyagok hasznosítása által lehet megvalósítani. Környezetvédelmi tevékenységünk mellett céljaink között szerepel a jövő nemzedék környezettudatosságra való nevelése is.",
+  "contact_us_btn": "kapcsolatfelvétel"
 }

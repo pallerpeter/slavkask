@@ -1,8 +1,15 @@
 {
+  "home": "Home",
+  "about": "About",
+  "contact": "Contact",
+  "home_mobil": "Home",
+  "about_mobil": "About",
+  "contact_mobil": "Contact",
   "greeting": "Welcome",
   "description": "Restored energy through plastic waste recycling",
   "motto": "Cleaner environment ",
   "mission_title": "Together against plastic pollution",
   "mission": "In the last three decades, plastic consumption on Earth has quadrupled. Only 9 percent of plastics are recycled, 50 percent end up in landfills. Some of it is burned, and the rest does not enter the waste processing system at all. Unfortunately, not all plastics can be recycled and this causes a huge problem all over the world, since microplastics have already appeared in our food, water, and even in the human body. It is therefore extremely important that governments, non-governmental organizations and even ordinary people recognize the dangers of plastic pollution. It is also essential to look for technologies that can be used to process such plastics that cannot be recycled by traditional methods. We strive to create a cross-border cooperation that can reduce plastic pollution and create a cleaner living environment.",
-  "mission_summary": "The main task of our non-profit organization is to create an environmentally and socially sustainable world, which can be achieved largely through the utilization of non-recyclable plastics. In addition to our environmental protection activities, our goals include educating the future generation on environmental awareness."
+  "mission_summary": "The main task of our non-profit organization is to create an environmentally and socially sustainable world, which can be achieved largely through the utilization of non-recyclable plastics. In addition to our environmental protection activities, our goals include educating the future generation on environmental awareness.",
+  "contact_us_btn": "contact us"
 }

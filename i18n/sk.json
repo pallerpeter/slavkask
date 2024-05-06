@@ -1,8 +1,15 @@
 {
+  "home": "Úvod",
+  "about": "O nás",
+  "contact": "Kontakt",
+  "home_mobil": "Úvod",
+  "about_mobil": "O nás",
+  "contact_mobil": "Kontakt",
   "greeting": "Vitajte",
   "description": "Obnovená energia pomocou recyklácie plastového odpadu",
   "motto": "Čistejšie životné prostredie",
   "mission_title": "Spoločne proti plastové znečistenie",
   "mission": "Za posledné tri desaťročia vzrástla spotreba plastov na Zemi štvornásobne. Len 9 percent plastov sa recykluje, 50 percent končí na skládkach. Časť z nich sa spáli a zvyšok sa vôbec nedostane do systému spracovania odpadu. Žiaľ, nie všetky plasty sa dajú recyklovať a to spôsobuje obrovský problém na celom svete, keďže mikroplasty sa už objavili v našich potravinách, vode a dokonca aj v ľudskom tele. Je preto mimoriadne dôležité, aby si vlády, mimovládne organizácie a obyčajní ľudia uvedomili nebezpečenstvo znečistenia plastmi. Je tiež nevyhnutné, aby sme neustále hľadali technológie, ktoré sa dajú použiť na spracovanie plastov, ktoré sa nedajú použiť tradičnými metódami. Snažíme sa vytvoriť cezhraničnú spoluprácu, ktorá môže znížiť znečistenie plastmi a vytvoriť čistejšie životné prostredie.",
-  "mission_summary": "Hlavnou úlohou našej neziskovej organizácie je vytvárať environmentálne a sociálne udržateľný svet, ktorý je možné dosiahnuť najmä využívaním nerecyklovateľných plastov. Okrem našich aktivít na ochranu životného prostredia patrí medzi naše ciele aj výchova budúcej generácie k environmentálnemu povedomiu."
+  "mission_summary": "Hlavnou úlohou našej neziskovej organizácie je vytvárať environmentálne a sociálne udržateľný svet, ktorý je možné dosiahnuť najmä využívaním nerecyklovateľných plastov. Okrem našich aktivít na ochranu životného prostredia patrí medzi naše ciele aj výchova budúcej generácie k environmentálnemu povedomiu.",
+  "contact_us_btn": "Kontakt"
 }
