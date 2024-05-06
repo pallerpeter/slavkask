@@ -23,6 +23,10 @@ function loadLanguage(language) {
       //document.getElementById("greeting").textContent = data.greeting;
       document.getElementById("motto").textContent = data.motto;
       document.getElementById("description").textContent = data.description;
+      document.getElementById("mission_title").textContent = data.mission_title;
+      document.getElementById("mission").textContent = data.mission;
+      document.getElementById("mission_summary").textContent =
+        data.mission_summary;
       updateActiveLanguage(language);
     });
 }
