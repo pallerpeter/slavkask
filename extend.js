@@ -33,6 +33,13 @@ function loadLanguage(language) {
       document.getElementById("mission").textContent = data.mission;
       document.getElementById("mission_summary").textContent =
         data.mission_summary;
+      document.getElementById("vision_title").textContent = data.vision_title;
+      document.getElementById("vision_1").textContent = data.vision_1;
+      document.getElementById("vision_2").textContent = data.vision_2;
+      document.getElementById("vision_3").textContent = data.vision_3;
+      document.getElementById("vision_4").textContent = data.vision_4;
+      document.getElementById("closing_text").textContent = data.closing_text;
+      document.getElementById("citation2").textContent = data.citation2;
       updateActiveLanguage(language);
     });
 }
