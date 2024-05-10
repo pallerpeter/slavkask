@@ -33,11 +33,26 @@ function loadLanguage(language) {
       document.getElementById("mission").textContent = data.mission;
       document.getElementById("mission_summary").textContent =
         data.mission_summary;
+      document.getElementById("cooperation").textContent = data.cooperation;
+      document.getElementById("plastic_processing").textContent =
+        data.plastic_processing;
+      document.getElementById("clean_world").textContent = data.clean_world;
       document.getElementById("vision_title").textContent = data.vision_title;
       document.getElementById("vision_1").textContent = data.vision_1;
       document.getElementById("vision_2").textContent = data.vision_2;
       document.getElementById("vision_3").textContent = data.vision_3;
-      document.getElementById("vision_4").textContent = data.vision_4;
+      document.getElementById("email_contact").textContent = data.email_contact;
+      document.getElementById("feel_free").textContent = data.feel_free;
+      document.getElementById("email_name").textContent = data.email_name;
+      // document.getElementById("email_name_placeholder").textContent =
+      //   data.email_name_placeholder;
+      document.getElementById("email_address").textContent = data.email_address;
+      // document.getElementById("email_address_placeholder").textContent =
+      //   data.email_address_placeholder;
+      document.getElementById("email_message").textContent = data.email_message;
+      // document.getElementById("email_message_placeholder").textContent =
+      //   data.email_message_placeholder;
+      document.getElementById("submit").textContent = data.submit;
       document.getElementById("closing_text").textContent = data.closing_text;
       document.getElementById("citation").textContent = data.citation;
       updateActiveLanguage(language);
