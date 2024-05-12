@@ -41,6 +41,7 @@ function loadLanguage(language) {
       document.getElementById("vision_1").textContent = data.vision_1;
       document.getElementById("vision_2").textContent = data.vision_2;
       document.getElementById("vision_3").textContent = data.vision_3;
+      document.getElementById("vision_4").textContent = data.vision_4;
       document.getElementById("email_contact").textContent = data.email_contact;
       document.getElementById("feel_free").textContent = data.feel_free;
       document.getElementById("email_name").textContent = data.email_name;
