@@ -885,8 +885,16 @@
                   <div
                     class="u-expanded-width-sm u-expanded-width-xs u-form u-form-1"
                   >
-                    <form id="contact-form" method="post" role="form">
-                      <div class="mb-3">
+                    <form
+                      id="contact-form"
+                      method="post"
+                      role="form"
+                      class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form"
+                    >
+                      <div class="u-form-group u-form-name">
+                        <label id="name_label" for="name" class="u-label"
+                          >Name</label
+                        >
                         <input
                           type="text"
                           name="userName"
@@ -900,7 +908,10 @@
                         />
                         <div class="validation"></div>
                       </div>
-                      <div class="mb-3">
+                      <div class="u-form-email u-form-group">
+                        <label id="email_label" for="email" class="u-label"
+                          >Email</label
+                        >
                         <input
                           type="email"
                           class="form-control br-radius-zero"
@@ -913,22 +924,13 @@
                         />
                         <div class="validation"></div>
                       </div>
-                      <div class="mb-3">
-                        <input
-                          type="text"
-                          class="form-control br-radius-zero"
-                          name="company"
-                          id="company"
-                          placeholder="Company"
-                          data-rule="minlen:4"
-                          data-msg="Please enter at least 4 chars"
-                          required
-                        />
-                        <div class="validation"></div>
-                      </div>
-                      <div class="mb-3">
+                      <div class="u-form-group u-form-message">
+                        <label id="message_label" for="message" class="u-label"
+                          >Message</label
+                        >
                         <textarea
-                          class="form-control br-radius-zero"
+                          id="message"
+                          class="u-border-none u-grey-5 u-input u-input-rectangle"
                           name="message"
                           rows="5"
                           data-rule="minlen:15"
@@ -939,7 +941,7 @@
                         <div class="validation"></div>
                       </div>
                       <div class="form-action">
-                        <button type="submit" class="btn btn-form">
+                        <button id="submit" type="submit" class="btn btn-form">
                           Send Message
                         </button>
                       </div>
@@ -958,7 +960,7 @@
                       source="email"
                       name="form"
                       style="padding: 0px"
-                      method="post" 
+                      method="post"
                       role="form"
                     >
                       <div class="u-form-group u-form-name">
