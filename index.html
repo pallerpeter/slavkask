@@ -5,11 +5,12 @@
     <meta charset="utf-8" />
     <meta name="keywords" content="About Us, Family Business" />
     <meta name="description" content="" />
+    <meta name="referrer" content="origin" />
     <title>SlavkaSk nonprofit</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="stylesheet" href="default.css" media="screen" />
-    <link rel="stylesheet" href="extend.css" media="screen" />
-    <link rel="stylesheet" href="About-1.css" media="screen" />
+    <link rel="stylesheet" href="css/default.css" media="screen" />
+    <link rel="stylesheet" href="css/extend.css" media="screen" />
+    <link rel="stylesheet" href="css/About-1.css" media="screen" />
     <script
       class="u-script"
       type="text/javascript"
@@ -25,10 +26,10 @@
     <script
       class="u-script"
       type="text/javascript"
-      src="extend.js"
+      src="js/extend.js"
       defer=""
     ></script>
-    <meta name="referrer" content="origin" />
+    <script type="text/javascript" src="js/email.min.js"></script>
     <link
       id="u-theme-google-font"
       rel="stylesheet"
@@ -51,10 +52,12 @@
     <meta property="og:title" content="About 1" />
     <meta property="og:type" content="website" />
     <meta data-intl-tel-input-cdn-path="intlTelInput/" />
+
+    <script src="js/email.min.js"></script>
   </head>
   <body
-    data-home-page="https://website6246326.nicepage.io/About-1.html?version=7b70c95f-523f-120f-5a93-2b74a41ce157"
-    data-home-page-title="About 1"
+    data-home-page=""
+    data-home-page-title=""
     data-path-to-root="./"
     data-include-products="true"
     class="u-body u-xl-mode"
@@ -856,7 +859,8 @@
         </div>
       </div>
     </section>
-    <section id="contact" class="u-clearfix u-section-6" id="sec-ac3e">
+
+    <section id="contact" class="u-clearfix u-section-6">
       <div class="u-clearfix u-sheet u-sheet-1">
         <div
           class="data-layout-selected u-align-left-lg u-align-left-md u-align-left-xl u-clearfix u-expanded-width u-gutter-30 u-layout-wrap u-layout-wrap-1"
@@ -881,75 +885,132 @@
                   <div
                     class="u-expanded-width-sm u-expanded-width-xs u-form u-form-1"
                   >
-                    <form
-                      action="https://forms.nicepagesrv.com/v2/form/process"
+                    <form id="contact-form" method="post" role="form">
+                      <div class="mb-3">
+                        <input
+                          type="text"
+                          name="userName"
+                          class="form-control br-radius-zero"
+                          id="name"
+                          placeholder="Your Name"
+                          data-rule="minlen:4"
+                          data-rule=""
+                          data-msg="Please enter at least 4 chars"
+                          required
+                        />
+                        <div class="validation"></div>
+                      </div>
+                      <div class="mb-3">
+                        <input
+                          type="email"
+                          class="form-control br-radius-zero"
+                          name="userEmail"
+                          id="email"
+                          placeholder="Your Email"
+                          data-rule="email"
+                          data-msg="Please enter a valid email"
+                          required
+                        />
+                        <div class="validation"></div>
+                      </div>
+                      <div class="mb-3">
+                        <input
+                          type="text"
+                          class="form-control br-radius-zero"
+                          name="company"
+                          id="company"
+                          placeholder="Company"
+                          data-rule="minlen:4"
+                          data-msg="Please enter at least 4 chars"
+                          required
+                        />
+                        <div class="validation"></div>
+                      </div>
+                      <div class="mb-3">
+                        <textarea
+                          class="form-control br-radius-zero"
+                          name="message"
+                          rows="5"
+                          data-rule="minlen:15"
+                          data-msg="The given message must be at least 15 characters long."
+                          placeholder="I would like to ask for a personal live demonstration about ... "
+                          required
+                        ></textarea>
+                        <div class="validation"></div>
+                      </div>
+                      <div class="form-action">
+                        <button type="submit" class="btn btn-form">
+                          Send Message
+                        </button>
+                      </div>
+                      <div
+                        id="emailResponseContainer"
+                        class="hidden alert"
+                        style="width: 100%; margin-top: 1rem"
+                      >
+                        <strong id="emailResponse"></strong>
+                      </div>
+                    </form>
+
+                    <!-- <form
+                      id="contact-form"
                       class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form"
                       source="email"
                       name="form"
                       style="padding: 0px"
+                      method="post" 
+                      role="form"
                     >
                       <div class="u-form-group u-form-name">
-                        <label
-                          id="email_name"
-                          for="email_name_input"
-                          class="u-label"
+                        <label id="name_label" for="name" class="u-label"
                           >Name</label
                         >
                         <input
                           type="text"
                           placeholder="Enter your Name"
-                          id="email_name_input"
+                          id="name"
                           name="name"
                           class="u-border-none u-grey-5 u-input u-input-rectangle"
                           required=""
                         />
                       </div>
                       <div class="u-form-email u-form-group">
-                        <label
-                          id="email_address"
-                          for="email_address_input"
-                          class="u-label"
+                        <label id="email_label" for="email" class="u-label"
                           >Email</label
                         >
                         <input
                           type="email"
                           placeholder="Enter a valid email address"
-                          id="email_address_input"
+                          id="email"
                           name="email"
                           class="u-border-none u-grey-5 u-input u-input-rectangle"
                           required=""
                         />
                       </div>
                       <div class="u-form-group u-form-message">
-                        <label
-                          id="email_message"
-                          for="email_message_input"
-                          class="u-label"
+                        <label id="message_label" for="message" class="u-label"
                           >Message</label
                         >
                         <textarea
                           placeholder="Enter your message"
                           rows="4"
                           cols="50"
-                          id="email_message_input"
+                          id="message"
                           name="message"
                           class="u-border-none u-grey-5 u-input u-input-rectangle"
                           required=""
                         ></textarea>
                       </div>
-                      <div class="u-align-left u-form-group u-form-submit">
-                        <a
-                          id="submit"
-                          href="#"
-                          class="u-border-none u-btn u-btn-submit u-button-style u-hover-black u-palette-3-base u-btn-1"
-                          >Submit</a
-                        >
-                        <input
-                          type="submit"
-                          value="submit"
-                          class="u-form-control-hidden"
-                        />
-                      </div>
+                      <div
+                        class="u-align-left u-form-group u-form-submit"
+                      ></div>
+                      <button
+                        id="submit"
+                        type="submit"
+                        class="u-border-none u-btn u-btn-submit u-button-style u-hover-black u-palette-3-base u-btn-1"
+                      >
+                        Submit
+                      </button>
                       <div class="u-form-send-message u-form-send-success">
                         Thank you! Your message has been sent.
                       </div>
@@ -957,13 +1018,7 @@
                         Unable to send your message. Please fix errors then try
                         again.
                       </div>
-                      <input type="hidden" value="" name="recaptchaResponse" />
-                      <input
-                        type="hidden"
-                        name="formServices"
-                        value="2e86746c-6466-6e07-4fe2-27f1827f1f7c"
-                      />
-                    </form>
+                    </form> -->
                   </div>
                 </div>
               </div>
@@ -979,7 +1034,6 @@
                     data-image-width="2000"
                     data-image-height="1333"
                   ></div>
-                  <!-- <h5 class="u-text u-text-default u-text-3"></h5> -->
                   <p
                     id="closing_text"
                     class="u-text u-text-4"
@@ -1004,6 +1058,97 @@
       </div>
     </section>
 
+    <!-- <section id="contact" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="ser-title">Contact us</h2>
+            <hr class="botm-line" />
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <h3>Contact Info</h3>
+            <div class="space"></div>
+            <p class="contanct-info">
+              <i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i
+              >biobank@ibtconsulting.hu
+            </p>
+          </div>
+          <div class="col-md-8 col-sm-12 marb20">
+            <div class="contact-info">
+              <h3 class="cnt-ttl">Feel free to contact us.</h3>
+              <div class="space"></div>
+              <form id="contact-form" method="post" role="form">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    name="userName"
+                    class="form-control br-radius-zero"
+                    id="name"
+                    placeholder="Your Name"
+                    data-rule="minlen:4"
+                    data-rule=""
+                    data-msg="Please enter at least 4 chars"
+                    required
+                  />
+                  <div class="validation"></div>
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control br-radius-zero"
+                    name="userEmail"
+                    id="email"
+                    placeholder="Your Email"
+                    data-rule="email"
+                    data-msg="Please enter a valid email"
+                    required
+                  />
+                  <div class="validation"></div>
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control br-radius-zero"
+                    name="company"
+                    id="company"
+                    placeholder="Company"
+                    data-rule="minlen:4"
+                    data-msg="Please enter at least 4 chars"
+                    required
+                  />
+                  <div class="validation"></div>
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control br-radius-zero"
+                    name="message"
+                    rows="5"
+                    data-rule="minlen:15"
+                    data-msg="The given message must be at least 15 characters long."
+                    placeholder="I would like to ask for a personal live demonstration about ... "
+                    required
+                  ></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="form-action">
+                  <button type="submit" class="btn btn-form">
+                    Send Message
+                  </button>
+                </div>
+                <div
+                  id="emailResponseContainer"
+                  class="hidden alert"
+                  style="width: 100%; margin-top: 1rem"
+                >
+                  <strong id="emailResponse"></strong>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
     <footer
       class="u-align-center u-clearfix u-footer u-grey-80 u-footer"
       id="sec-59bd"
@@ -1022,5 +1167,7 @@
         </a>
       </p>
     </section> -->
+
+    <script src="js/email.js"></script>
   </body>
 </html>

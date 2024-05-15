@@ -4,7 +4,7 @@
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ),
-    url("images/background.webp");
+    url("../images/background.webp");
   background-position: 50% 50%;
 }
 
@@ -117,7 +117,7 @@
 
 .u-section-2 .u-image-1 {
   min-height: 513px;
-  background-image: url("images/igna_on_earth.jpg");
+  background-image: url("../images/igna_on_earth.jpg");
   background-position: 50% 50%;
 }
 
@@ -198,7 +198,7 @@
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url("images/plastic-waste.jpg");
+    url("../images/plastic-waste.jpg");
 }
 
 .u-section-3 .u-sheet-1 {
@@ -693,7 +693,7 @@
 .u-section-5 .u-image-1 {
   height: 210px;
   width: 210px;
-  background-image: url("images/portrait-smiling-handyman-with-tools-isolated-white-wall.jpg");
+  background-image: url("../images/portrait-smiling-handyman-with-tools-isolated-white-wall.jpg");
   background-position: 50% 8.64%;
   margin: 0 auto;
 }
@@ -751,7 +751,7 @@
 .u-section-5 .u-image-2 {
   height: 210px;
   width: 210px;
-  background-image: url("images/car-mechanic-crossing-hands.jpg");
+  background-image: url("../images/car-mechanic-crossing-hands.jpg");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -803,7 +803,7 @@
 .u-section-5 .u-image-3 {
   height: 210px;
   width: 210px;
-  background-image: url("images/plumber-with-his-arms-crossed.jpg");
+  background-image: url("../images/plumber-with-his-arms-crossed.jpg");
   background-position: 50% 0%;
   margin: 0 auto;
 }
@@ -972,7 +972,7 @@
   height: 165px;
   margin-top: 0;
   margin-bottom: 0;
-  background-image: url("images/plastic-in-hands.jpg");
+  background-image: url("../images/plastic-in-hands.jpg");
   background-position: 50% 50%;
 }
 
