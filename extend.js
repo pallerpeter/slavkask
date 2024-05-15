@@ -45,14 +45,14 @@ function loadLanguage(language) {
       document.getElementById("email_contact").textContent = data.email_contact;
       document.getElementById("feel_free").textContent = data.feel_free;
       document.getElementById("email_name").textContent = data.email_name;
-      // document.getElementById("email_name_placeholder").textContent =
-      //   data.email_name_placeholder;
+      document.getElementById("email_name_input").placeholder =
+        data.email_name_input;
       document.getElementById("email_address").textContent = data.email_address;
-      // document.getElementById("email_address_placeholder").textContent =
-      //   data.email_address_placeholder;
+      document.getElementById("email_address_input").placeholder =
+        data.email_address_input;
       document.getElementById("email_message").textContent = data.email_message;
-      // document.getElementById("email_message_placeholder").textContent =
-      //   data.email_message_placeholder;
+      document.getElementById("email_message_input").placeholder =
+        data.email_message_input;
       document.getElementById("submit").textContent = data.submit;
       document.getElementById("closing_text").textContent = data.closing_text;
       document.getElementById("citation").textContent = data.citation;
