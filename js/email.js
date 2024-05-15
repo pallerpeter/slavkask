@@ -1,8 +1,6 @@
 (function () {
   emailjs.init({
-    //publicKey: "8MIUeQwrJghC6u4Xl", //paller.peter
-    publicKey: "RJqSCe3a4wXVXl3E1", // IGNA
-    //publicKey: "zAwfRINytFJAZfZ1l" //IBT
+    publicKey: "RJqSCe3a4wXVXl3E1",
   });
 })();
 
@@ -17,31 +15,24 @@ window.onload = function () {
         var messageContainer = document.getElementById(
           "emailResponseContainer"
         );
-        var message = document.getElementById("emailResponse");
+        var success = document.getElementById("email_success");
+        var failed = document.getElementById("email_failed");
 
-        emailjs
-          //.sendForm("service_uiedg7x", "template_o1jsn3m", this) // paller.peter
-          .sendForm("service_tqlmvti", "template_ufnjo8f", this) // IGNA
-          //emailjs.sendForm('service_9gwm38t', 'template_oun59fs', this) // IBT
-          .then(
-            () => {
-              if (messageContainer && message) {
-                message.innerHTML = "The message has been successfully sent.";
-                messageContainer.classList.add("alert-success");
-                messageContainer.classList.remove("hidden");
-                // setTimeout(function() {
-                //     messageContainer.classList.add("hidden");
-                // }, 5000);
-                this.reset();
-              }
-            },
-            (error) => {
-              message.innerHTML =
-                "The email sending failed. Please contact us at the provided email address.";
-              messageContainer.classList.add("alert-danger");
+        emailjs.sendForm("service_tqlmvti", "template_ufnjo8f", this).then(
+          () => {
+            if (messageContainer) {
+              success.classList.remove("hidden");
+              console.log("success_remove_hidden");
               messageContainer.classList.remove("hidden");
+              this.reset();
             }
-          );
+          },
+          (error) => {
+            failed.classList.remove("hidden");
+            messageContainer.classList.add("danger");
+            messageContainer.classList.remove("hidden");
+          }
+        );
       }
     });
 };

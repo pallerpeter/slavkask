@@ -54,6 +54,8 @@ function loadLanguage(language) {
       document.getElementById("message_label").textContent = data.message_label;
       document.getElementById("message").placeholder = data.message;
       document.getElementById("submit").textContent = data.submit;
+      document.getElementById("email_success").textContent = data.email_success;
+      document.getElementById("email_failed").textContent = data.email_failed;
       document.getElementById("closing_text").textContent = data.closing_text;
       document.getElementById("citation").textContent = data.citation;
       updateActiveLanguage(language);

@@ -15,3 +15,15 @@
   text-align: justify;
   text-justify: inter-word;
 }
+
+.success {
+  color: #30be00;
+}
+
+.danger {
+  color: #be0000;
+}
+
+.hidden {
+  display: none;
+}

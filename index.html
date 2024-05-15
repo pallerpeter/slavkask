@@ -887,9 +887,11 @@
                   >
                     <form
                       id="contact-form"
+                      class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form"
+                      style="padding: 0px"
+                      name="form"
                       method="post"
                       role="form"
-                      class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form"
                     >
                       <div class="u-form-group u-form-name">
                         <label id="name_label" for="name" class="u-label"
@@ -897,10 +899,10 @@
                         >
                         <input
                           type="text"
-                          name="userName"
-                          class="form-control br-radius-zero"
+                          name="name"
+                          class="u-border-none u-grey-5 u-input u-input-rectangle"
                           id="name"
-                          placeholder="Your Name"
+                          placeholder="Enter your Name"
                           data-rule="minlen:4"
                           data-rule=""
                           data-msg="Please enter at least 4 chars"
@@ -914,7 +916,7 @@
                         >
                         <input
                           type="email"
-                          class="form-control br-radius-zero"
+                          class="u-border-none u-grey-5 u-input u-input-rectangle"
                           name="userEmail"
                           id="email"
                           placeholder="Your Email"
@@ -940,8 +942,14 @@
                         ></textarea>
                         <div class="validation"></div>
                       </div>
-                      <div class="form-action">
-                        <button id="submit" type="submit" class="btn btn-form">
+                      <div
+                        class="form-action u-align-left u-form-group u-form-submit"
+                      >
+                        <button
+                          id="submit"
+                          type="submit"
+                          class="btn btn-form u-border-none u-btn u-button-style u-hover-black u-palette-3-base u-btn-1"
+                        >
                           Send Message
                         </button>
                       </div>
@@ -950,77 +958,15 @@
                         class="hidden alert"
                         style="width: 100%; margin-top: 1rem"
                       >
-                        <strong id="emailResponse"></strong>
+                        <strong id="email_success" class="hidden success"
+                          >The message has been successfully sent.</strong
+                        >
+                        <strong id="email_failed" class="hidden danger"
+                          >The email sending failed. Please contact us at the
+                          igna.developers@gmail.com</strong
+                        >
                       </div>
                     </form>
-
-                    <!-- <form
-                      id="contact-form"
-                      class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form"
-                      source="email"
-                      name="form"
-                      style="padding: 0px"
-                      method="post"
-                      role="form"
-                    >
-                      <div class="u-form-group u-form-name">
-                        <label id="name_label" for="name" class="u-label"
-                          >Name</label
-                        >
-                        <input
-                          type="text"
-                          placeholder="Enter your Name"
-                          id="name"
-                          name="name"
-                          class="u-border-none u-grey-5 u-input u-input-rectangle"
-                          required=""
-                        />
-                      </div>
-                      <div class="u-form-email u-form-group">
-                        <label id="email_label" for="email" class="u-label"
-                          >Email</label
-                        >
-                        <input
-                          type="email"
-                          placeholder="Enter a valid email address"
-                          id="email"
-                          name="email"
-                          class="u-border-none u-grey-5 u-input u-input-rectangle"
-                          required=""
-                        />
-                      </div>
-                      <div class="u-form-group u-form-message">
-                        <label id="message_label" for="message" class="u-label"
-                          >Message</label
-                        >
-                        <textarea
-                          placeholder="Enter your message"
-                          rows="4"
-                          cols="50"
-                          id="message"
-                          name="message"
-                          class="u-border-none u-grey-5 u-input u-input-rectangle"
-                          required=""
-                        ></textarea>
-                      </div>
-                      <div
-                        class="u-align-left u-form-group u-form-submit"
-                      ></div>
-                      <button
-                        id="submit"
-                        type="submit"
-                        class="u-border-none u-btn u-btn-submit u-button-style u-hover-black u-palette-3-base u-btn-1"
-                      >
-                        Submit
-                      </button>
-                      <div class="u-form-send-message u-form-send-success">
-                        Thank you! Your message has been sent.
-                      </div>
-                      <div class="u-form-send-error u-form-send-message">
-                        Unable to send your message. Please fix errors then try
-                        again.
-                      </div>
-                    </form> -->
                   </div>
                 </div>
               </div>

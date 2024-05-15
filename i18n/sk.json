@@ -29,6 +29,8 @@
   "message_label": "Správa",
   "message": "Napíš sem tvouju správu",
   "submit": "ODOSLAŤ",
+  "email_success": "Úspešné odoslanie správy",
+  "email_failed": "Emailové odoslanie zlyhalo. Prosím, kontaktujte nás na adrese igna.developers@gmail.com",
   "closing_text": "Recyklácia odpadu môže výrazne znížiť environmentálnu záťaž, ak máme vhodné technologické nástroje. Nezisková organizácia SlavkaSk sleduje vznik a vývoj technológií, ktoré transformujú plasty, ktoré sa nedajú recyklovať tradičným spôsobom, na hodnotné konečné produkty.",
   "citation": "Skutočnú ekologickú zmenu vo svete môžeme dosiahnuť len vtedy, ak sa spojíme a budeme spolupracovať na čistejšej budúcnosti."
 }
