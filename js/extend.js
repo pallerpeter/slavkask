@@ -42,12 +42,17 @@ function loadLanguage(language) {
       document.getElementById("vision_2").textContent = data.vision_2;
       document.getElementById("vision_3").textContent = data.vision_3;
       document.getElementById("vision_4").textContent = data.vision_4;
+
+      document.getElementById("leadership").textContent = data.leadership;
+      document.getElementById("chairman").textContent = data.chairman;
+      document.getElementById("pr_director").textContent = data.pr_director;
+      document.getElementById("cio").textContent = data.cio;
+      document.getElementById("domc").textContent = data.domc;
+
       document.getElementById("email_contact").textContent = data.email_contact;
       document.getElementById("feel_free").textContent = data.feel_free;
-
       document.getElementById("name_label").textContent = data.name_label;
       document.getElementById("name").placeholder = data.name;
-
       document.getElementById("email_label").textContent = data.email_label;
       document.getElementById("email").placeholder = data.email;
 

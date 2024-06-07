@@ -675,7 +675,7 @@
 }
 
 .u-section-5 .u-repeater-1 {
-  grid-template-columns: repeat(3, 33.3333%);
+  grid-template-columns: repeat(4, 25%);
   min-height: 399px;
   grid-gap: 0px;
 }
@@ -687,14 +687,15 @@
 }
 
 .u-section-5 .u-container-layout-1 {
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .u-section-5 .u-image-1 {
   height: 210px;
   width: 210px;
-  background-image: url("../images/portrait-smiling-handyman-with-tools-isolated-white-wall.jpg");
-  background-position: 50% 8.64%;
+  background-image: url("../images/ignac_01.jpg");
+  background-position: 50% 20%;
   margin: 0 auto;
 }
 
@@ -745,14 +746,15 @@
 }
 
 .u-section-5 .u-container-layout-2 {
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .u-section-5 .u-image-2 {
   height: 210px;
   width: 210px;
-  background-image: url("../images/car-mechanic-crossing-hands.jpg");
-  background-position: 50% 50%;
+  background-image: url("../images/anna_01.jpg");
+  background-position: 50% 8.64%;
   margin: 0 auto;
 }
 
@@ -797,14 +799,28 @@
 }
 
 .u-section-5 .u-container-layout-3 {
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.u-section-5 .u-container-layout-4 {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .u-section-5 .u-image-3 {
   height: 210px;
   width: 210px;
-  background-image: url("../images/plumber-with-his-arms-crossed.jpg");
-  background-position: 50% 0%;
+  background-image: url("../images/eva_01.jpg");
+  background-position: 50% 40%;
+  margin: 0 auto;
+}
+
+.u-section-5 .u-image-4 {
+  height: 210px;
+  width: 210px;
+  background-image: url("../images/janos_01.jpg");
+  background-position: 50% 20%;
   margin: 0 auto;
 }
 
