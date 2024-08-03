@@ -68,6 +68,15 @@
       id="sec-41f8"
     >
       <div class="u-clearfix u-sheet u-sheet-1">
+        <div style="position: absolute">
+          <img
+            src="/images/Color logo - no background.svg"
+            alt="logo"
+            width="100px"
+            height="70px"
+            style="margin-top: 5px"
+          />
+        </div>
         <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
           <div
             class="menu-collapse"
@@ -122,7 +131,7 @@
                 <a
                   id="contact"
                   class="u-button-style u-nav-link u-text-active-palette-3-base u-text-hover-palette-3-base"
-                  href="#contact"
+                  href="#contactsection"
                   style="padding: 10px 20px"
                   >Contact</a
                 >
@@ -171,7 +180,7 @@
         </nav>
         <div
           id="language-selector"
-          style="position: absolute; top: 20px; right: 0"
+          style="position: absolute; top: 25px; right: 0"
         >
           <span class="language" onclick="loadLanguage('en')">EN</span> |
           <span class="language" onclick="loadLanguage('hu')">HU</span> |
@@ -647,7 +656,7 @@
       </div>
     </section>
 
-    <section id="contact" class="u-clearfix u-section-6">
+    <section id="contactsection" class="u-clearfix u-section-6">
       <div class="u-clearfix u-sheet u-sheet-1">
         <div
           class="data-layout-selected u-align-left-lg u-align-left-md u-align-left-xl u-clearfix u-expanded-width u-gutter-30 u-layout-wrap u-layout-wrap-1"
@@ -661,6 +670,29 @@
                   <h5 id="email_contact" class="u-text u-text-default u-text-1">
                     Our Contact
                   </h5>
+                  <div
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 10px;
+                      margin-top: 1rem;
+                    "
+                  >
+                    <img
+                      src="/images/mobile.png"
+                      alt="mobile_logo"
+                      width="40px"
+                    />
+                    <p style="display: inline">+421 914 704 008</p>
+                  </div>
+                  <div style="display: flex; align-items: center; gap: 10px">
+                    <img
+                      src="/images/envelope.png"
+                      alt="email_logo"
+                      width="40px"
+                    />
+                    <p>slavkasknonprofit@gmail.com</p>
+                  </div>
                   <h2
                     id="feel_free"
                     class="u-text u-text-default u-text-2"
@@ -792,97 +824,6 @@
         </div>
       </div>
     </section>
-
-    <!-- <section id="contact" class="section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="ser-title">Contact us</h2>
-            <hr class="botm-line" />
-          </div>
-          <div class="col-md-4 col-sm-12">
-            <h3>Contact Info</h3>
-            <div class="space"></div>
-            <p class="contanct-info">
-              <i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i
-              >biobank@ibtconsulting.hu
-            </p>
-          </div>
-          <div class="col-md-8 col-sm-12 marb20">
-            <div class="contact-info">
-              <h3 class="cnt-ttl">Feel free to contact us.</h3>
-              <div class="space"></div>
-              <form id="contact-form" method="post" role="form">
-                <div class="mb-3">
-                  <input
-                    type="text"
-                    name="userName"
-                    class="form-control br-radius-zero"
-                    id="name"
-                    placeholder="Your Name"
-                    data-rule="minlen:4"
-                    data-rule=""
-                    data-msg="Please enter at least 4 chars"
-                    required
-                  />
-                  <div class="validation"></div>
-                </div>
-                <div class="mb-3">
-                  <input
-                    type="email"
-                    class="form-control br-radius-zero"
-                    name="userEmail"
-                    id="email"
-                    placeholder="Your Email"
-                    data-rule="email"
-                    data-msg="Please enter a valid email"
-                    required
-                  />
-                  <div class="validation"></div>
-                </div>
-                <div class="mb-3">
-                  <input
-                    type="text"
-                    class="form-control br-radius-zero"
-                    name="company"
-                    id="company"
-                    placeholder="Company"
-                    data-rule="minlen:4"
-                    data-msg="Please enter at least 4 chars"
-                    required
-                  />
-                  <div class="validation"></div>
-                </div>
-                <div class="mb-3">
-                  <textarea
-                    class="form-control br-radius-zero"
-                    name="message"
-                    rows="5"
-                    data-rule="minlen:15"
-                    data-msg="The given message must be at least 15 characters long."
-                    placeholder="I would like to ask for a personal live demonstration about ... "
-                    required
-                  ></textarea>
-                  <div class="validation"></div>
-                </div>
-                <div class="form-action">
-                  <button type="submit" class="btn btn-form">
-                    Send Message
-                  </button>
-                </div>
-                <div
-                  id="emailResponseContainer"
-                  class="hidden alert"
-                  style="width: 100%; margin-top: 1rem"
-                >
-                  <strong id="emailResponse"></strong>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
 
     <footer
       class="u-align-center u-clearfix u-footer u-grey-80 u-footer"
