@@ -33,6 +33,7 @@ function loadLanguage(language) {
       document.getElementById("mission").textContent = data.mission;
       document.getElementById("mission_summary").textContent =
         data.mission_summary;
+      document.getElementById("contact_us_btn").textContent = data.contact_us_btn;
       document.getElementById("cooperation").textContent = data.cooperation;
       document.getElementById("plastic_processing").textContent =
         data.plastic_processing;
