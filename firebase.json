@@ -2,5 +2,17 @@
   "hosting": {
     "public": ".",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
-  }
+  },
+  "redirects": [
+    {
+      "source": "www.slavkask.com/*",
+      "destination": "https://slavkask.com/:splat",
+      "type": 301
+    },
+    {
+      "source": "www.slavkask.online/*",
+      "destination": "https://slavkask.online/:splat",
+      "type": 301
+    }
+  ]
 }
