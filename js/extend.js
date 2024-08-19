@@ -70,6 +70,11 @@ function loadLanguage(language) {
       document.getElementById("email_failed").textContent = data.email_failed;
       document.getElementById("closing_text").textContent = data.closing_text;
       document.getElementById("citation").textContent = data.citation;
+
+      //validation
+      document
+      .querySelector("#message")
+      .setAttribute("data-msg", data.minlen_message);
       updateActiveLanguage(language);
     });
 }

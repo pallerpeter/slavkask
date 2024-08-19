@@ -42,5 +42,7 @@
   "email_success": "Sikeres üzenetküldés",
   "email_failed": "Sikertelen üzenet küldés. Kérjük vegye fel velünk a kapcsolatot az igna.developers@gmail.com email címen.",
   "closing_text": "A hulladék újrahasznosítása jelentős mértékben csökkentheti a környezeti terhelést, amennyiben rendelkezünk a megfelelő technológiai eszközökkel. A SlavkaSk non-profit szervezet figyelemmel kíséri azon technológiák megjelenését és fejlődését, amelyek a hagyományos módon nem újrahasznosítható műanyagokat értékes végtermékké alakítják át.",
-  "citation": "Csak akkor érhetünk el igazi ökológiai változást a világban, ha összefogunk és közösen dolgozunk egy tisztább jövőért."
+  "citation": "Csak akkor érhetünk el igazi ökológiai változást a világban, ha összefogunk és közösen dolgozunk egy tisztább jövőért.",
+
+  "minlen_message": "Az üzenetnek legalább 15 karakter hosszúnak kell lennie."
 }
