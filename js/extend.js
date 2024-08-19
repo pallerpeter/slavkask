@@ -38,6 +38,7 @@ function loadLanguage(language) {
       document.getElementById("plastic_processing").textContent =
         data.plastic_processing;
       document.getElementById("clean_world").textContent = data.clean_world;
+      document.getElementById("pyrolysis").textContent = data.pyrolysis;
       document.getElementById("vision_title").textContent = data.vision_title;
       document.getElementById("vision_1").textContent = data.vision_1;
       document.getElementById("vision_2").textContent = data.vision_2;

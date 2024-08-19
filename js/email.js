@@ -1,6 +1,7 @@
 (function () {
   emailjs.init({
-    publicKey: "RJqSCe3a4wXVXl3E1",
+    //publicKey: "RJqSCe3a4wXVXl3E1", //ignadevelopers
+    publicKey: "vzwtOWJOTYN0u-vjU", //slavkasknonprofit
   });
 })();
 
@@ -18,7 +19,9 @@ window.onload = function () {
         var success = document.getElementById("email_success");
         var failed = document.getElementById("email_failed");
 
-        emailjs.sendForm("service_tqlmvti", "template_ufnjo8f", this).then(
+        //emailjs.sendForm("service_tqlmvti", "template_ufnjo8f", this) //ignadevelopers
+        emailjs.sendForm("service_ikm9hnw", "template_ugfkll8", this) //slavkasknonprofit
+        .then(
           () => {
             if (messageContainer) {
               success.classList.remove("hidden");
