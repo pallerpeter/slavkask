@@ -48,9 +48,9 @@ function loadLanguage(language) {
       document.getElementById("leadership").textContent = data.leadership;
       document.getElementById("chairman").textContent = data.chairman;
       document.getElementById("chairman_name").textContent = data.chairman_name;
-      document.getElementById("pr_director").textContent = data.pr_director;
-      document.getElementById("pr_director_name").textContent =
-        data.pr_director_name;
+      document.getElementById("ir_director").textContent = data.ir_director;
+      document.getElementById("ir_director_name").textContent =
+        data.ir_director_name;
       document.getElementById("domc").textContent = data.domc;
       document.getElementById("domc_name").textContent = data.domc_name;
       document.getElementById("cio").textContent = data.cio;
