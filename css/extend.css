@@ -27,3 +27,96 @@
 .hidden {
   display: none;
 }
+
+.facebook-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+
+.facebook-logo-hidden {
+  opacity: 0;
+}
+
+.facebook-container:hover .facebook-logo {
+  opacity: 0;
+}
+
+.facebook-container:hover .facebook-logo-hidden {
+  opacity: 1;
+}
+/* insta */
+.instagram-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+
+.instagram-logo-hidden {
+  opacity: 0;
+}
+
+.instagram-container:hover .instagram-logo {
+  opacity: 0;
+}
+
+.instagram-container:hover .instagram-logo-hidden {
+  opacity: 1;
+}
+
+.supporter-text-container{
+  margin-top: 60px;
+}
+
+.u-section-4 .u-text-igna {
+  margin: -80px 0 0 70px;
+}
+
+.u-section-4 .u-group-igna {
+  margin-left: 8px;
+  width: 65px;
+}
+
+.u-section-4 .u-sheet-igna {
+  min-height: 100px;
+}
+
+.u-section-4 .u-list-igna {
+  margin-top: 20px;
+  margin-bottom: -27px;
+}
+
+.icon-m {
+  margin-left: 16px;
+}
+
+@media (max-width: 767px) {
+
+  .igna-title {
+    font-size: 1.2rem;
+  }
+
+  .icon-m {
+    margin-left: 8px;
+  }
+  
+  .u-section-4 .u-text-igna {
+    margin: -68px 0 8px -225px;
+  }
+
+  .u-section-4 .u-group-igna {
+    margin-left: 0px;
+    width: 65px;
+  }
+}
+
+@media (max-width: 575px) {
+  
+  .u-section-4 .u-text-igna {
+    margin: -68px 0 8px -20px;
+  }
+}

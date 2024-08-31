@@ -56,6 +56,8 @@ function loadLanguage(language) {
       document.getElementById("cio").textContent = data.cio;
       document.getElementById("cio_name").textContent = data.cio_name;
 
+      document.getElementById("supporter").textContent = data.supporter;
+
       document.getElementById("email_contact").textContent = data.email_contact;
       document.getElementById("feel_free").textContent = data.feel_free;
       document.getElementById("name_label").textContent = data.name_label;
