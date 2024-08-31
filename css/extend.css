@@ -28,6 +28,21 @@
   display: none;
 }
 
+.facebook-container, .instagram-container, .webpage-container {
+  justify-content: center;
+}
+
+.supporter-content-container {
+  display: flex;
+  align-items: center;
+}
+
+.igna-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .facebook-logo {
   position: absolute;
   top: 0;
@@ -73,12 +88,13 @@
 }
 
 .u-section-4 .u-text-igna {
-  margin: -80px 0 0 70px;
+  /* margin: -80px 0 0 70px; */
+  margin: 0;
+  color: #111111;
 }
 
 .u-section-4 .u-group-igna {
-  margin-left: 8px;
-  width: 65px;
+  justify-content: center;
 }
 
 .u-section-4 .u-sheet-igna {
@@ -94,18 +110,26 @@
   margin-left: 16px;
 }
 
+.igna-logo {
+  width: 75px!important;
+}
+
+.igna-title {
+  text-wrap: nowrap;
+}
+
 @media (max-width: 767px) {
 
+  .igna-logo {
+    width: 65px!important;
+  }
+
   .igna-title {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .icon-m {
     margin-left: 8px;
-  }
-  
-  .u-section-4 .u-text-igna {
-    margin: -68px 0 8px -225px;
   }
 
   .u-section-4 .u-group-igna {
@@ -115,8 +139,15 @@
 }
 
 @media (max-width: 575px) {
-  
+  .igna-container {
+    align-items: flex-start;
+  }
+
+  .u-section-4 .u-group-igna {
+    display: block;
+  }
+
   .u-section-4 .u-text-igna {
-    margin: -68px 0 8px -20px;
+    margin: 0;
   }
 }
