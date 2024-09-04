@@ -28,6 +28,17 @@
   display: none;
 }
 
+.support-container{
+ display: flex;
+}
+
+.support-container-item{
+  width: 100%; 
+  padding: 30px; 
+  border: 15px solid transparent;
+}
+
+
 .facebook-container, .instagram-container, .webpage-container {
   justify-content: center;
 }
@@ -40,7 +51,7 @@
 .igna-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .facebook-logo {
@@ -118,7 +129,28 @@
   text-wrap: nowrap;
 }
 
+@media (max-width: 995.99px) {
+  .igna-title {
+    text-wrap: wrap;
+    font-size: 1.5rem;
+  }
+}
+
+
 @media (max-width: 767px) {
+  .support-container{
+    flex-direction: column;
+  }
+
+  .support-container-item{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+  }
+
+  .igna-title {
+    text-wrap: wrap;
+  }
 
   .igna-logo {
     width: 65px!important;
@@ -139,6 +171,7 @@
 }
 
 @media (max-width: 575px) {
+
   .igna-container {
     align-items: flex-start;
   }
