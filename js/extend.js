@@ -57,7 +57,12 @@ function loadLanguage(language) {
       document.getElementById("cio_name").textContent = data.cio_name;
 
       document.getElementById("supporter").textContent = data.supporter;
-
+      document.getElementById("support_us").textContent = data.support_us;
+      document.getElementById("donation_part_1").textContent = data.donation_part_1;
+      document.getElementById("donation_part_2").textContent = data.donation_part_2;
+      document.getElementById("donation_part_3").textContent = data.donation_part_3;
+      document.getElementById("beneficiary_name").textContent = data.beneficiary_name;
+      
       document.getElementById("email_contact").textContent = data.email_contact;
       document.getElementById("feel_free").textContent = data.feel_free;
       document.getElementById("name_label").textContent = data.name_label;
